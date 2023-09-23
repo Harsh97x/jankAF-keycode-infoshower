@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="main-div flex flex-col justify-center items-center h-screen">
+      <h1 class="mb-4">You have pressed <span class="indicator">Key</span></h1>
+      <div class="keybox flex flex-row">
+        <div class="flex flex-col justify-center mr-10">
+          <p class="text-xs">e.key</p>
+          <span class="ekey border border-black p-4">H</span>
+        </div>
+        <div class="flex flex-col justify-center mr-10">
+          <p class="text-xs">e.which</p>
+          <span class="ekeycode border border-black p-4">H</span>
+        </div>
+        <div class="flex flex-col justify-center mr-10">
+          <p class="text-xs">e.code</p>
+          <span class="ecode border border-black p-4">H</span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
